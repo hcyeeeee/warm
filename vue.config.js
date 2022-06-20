@@ -3,7 +3,7 @@ const Version = new Date().getTime()
 const path = require('path')
 module.exports = {
     publicPath: './', // 預設為/ 所有html下的js css 連結都會是/js/xx,在輸出到web server 路徑會有問題,需用./
-    outputDir: 'soldier', // 輸出路徑
+    outputDir: 'warm', // 輸出路徑
     assetsDir: './', // 要輸出的asset目錄,設定hello,則會輸出成 hello/js/xxx,
     devServer: {
         port: 1991,
@@ -32,7 +32,7 @@ module.exports = {
             .end()
         config.resolve.alias.set('@@', path.resolve(__dirname)) // @@ 代替根目錄
         config.plugin('html').tap((args) => {
-            args[0].title = '兵役延長助台灣國防？現代戰爭人海戰術還有效嗎？｜民視數位專題'
+            args[0].title = '暖新聞專區 溫暖你面對疫情的心、啟動你的正能量|民視數位專題'
             console.log(args[0])
             return args
         })

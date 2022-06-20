@@ -3,7 +3,8 @@
         <Transition name="fade">
             <div v-show="scrollY > 100">
                 <!-- @=v-on: -->
-                <i @click="scrollTop" class="fad fa-2x fa-angle-up"></i>
+
+                <img src="../assets/chevron-up-solid.svg" @click="scrollTop" class="up" alt="" />
             </div>
         </Transition>
     </div>
@@ -31,26 +32,45 @@ export default {
 </script>
 
 <style scoped>
-.fa-angle-up {
+.up {
     position: fixed;
     right: 1rem;
-    bottom: 5rem;
-    border-radius: 80%;
-    padding: 10px;
+    bottom: 3rem;
+    border-radius: 100%;
+    padding: 8px 10px;
     background-color: transparent;
-    color: black;
-    box-shadow: 1px 2px 3px black;
+    /* box-shadow: 1px 2px 3px black; */
+    border: 3px solid rgb(8, 8, 8);
     z-index: 99999;
     cursor: pointer;
-    font-size: 40px;
+    width: 50px;
+    opacity: 0.4;
 }
 
-.fade-enter-active,
-.fade-leave-active {
-    transition: opacity 0.5s ease;
+.up:hover {
+    opacity: 0.7;
 }
 
-.fade-enter-from,
+@media screen and (max-width: 1024px) {
+    .up {
+        position: fixed;
+        right: 0.2rem;
+        bottom: 2.3rem;
+        border-radius: 100%;
+        padding: 11px 12px;
+        background-color: transparent;
+        /* box-shadow: 1px 2px 3px black; */
+        border: 2px solid rgb(8, 8, 8);
+        z-index: 99999;
+        cursor: pointer;
+        width: 45px;
+        opacity: 0.7;
+    }
+
+    .up:hover {
+        opacity: 1;
+    }
+}
 .fade-leave-to {
     opacity: 0;
 }

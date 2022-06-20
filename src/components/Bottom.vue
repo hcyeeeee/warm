@@ -1,9 +1,17 @@
 <template>
     <div class="layout_addition">
         <div class="layout_bottom">
-            <div>
-                <a v-for="(title, index) of titles" :key="index" :href="title.link">{{ title.name }}</a>
+            <div id="main_nav" :class="{ fixed: active }">
+                <a class="col-4 col-sm-3 col-md-2 col-lg" v-for="(title, index) of titles" :key="index" :href="title.link"
+                    >{{ title.name }}
+                </a>
             </div>
+
+            <!-- <div id="main_nav1" :class="{ fixed: active }">
+                <a class="col-4 col-sm-3 col-md" v-for="(title, index) of titles" :key="index" :href="title.link"
+                    >{{ title.name }} &nbsp;&nbsp; <font-awesome-icon v-if="index === 2" icon="fa-solid fa-caret-right"
+                /></a>
+            </div> -->
         </div>
     </div>
 </template>
@@ -13,76 +21,175 @@ export default {
     data() {
         return {
             titles: [
-               
                 {
-                    name: `暖心故事`,
-                    link: `#part_news1`,
+                    name: `療癒毛孩`,
+                    link: `#pet`,
                 },
                 {
                     name: `齊心抗疫`,
-                    link: `#part_news2`,
+                    link: `#covid`,
+                },
+                {
+                    name: `暖心故事`,
+                    link: `#warm`,
                 },
                 {
                     name: `勵志人物`,
-                    link: `#part_news3`,
+                    link: `#people`,
                 },
-                 {
-                    name: `國際新聞`,
-                    link: `#part_news4`,
+
+                {
+                    name: `國際暖聞`,
+                    link: `#world`,
                 },
                 {
-                    name: `療癒毛孩`,
-                    link: `#part_news5`,
+                    name: `公益送暖`,
+                    link: `#good`,
                 },
                 {
                     name: `精選影音`,
-                    link: `#part_news6`,
+                    link: `#video`,
                 },
             ],
+            active: false, // 控制nav高度到達條件就轉成true，並加入class="fixed"
         }
+    },
+    created() {
+        window.addEventListener('scroll', this.handleScroll)
+    },
+    methods: {
+        handleScroll() {
+            this.active = window.scrollY > 700 ? true : false
+        },
     },
 }
 </script>
 
-<style>
-
-
-/* @media screen and (max-width: 1024px) {
- .layout_bottom div {
-    display: flex;
-    position: fixed;
-    top: 0;
-    padding: 1rem 0;
-    background-color:rgb(216, 226, 200);
-    z-index: 999;
+<style scoped>
+.fixed {
+    z-index: 999 !important;
+    position: fixed !important;
+    top: 0 !important;
+    overflow-y: hidden;
+    /* overflow-y: hidden; Hide vertical scrollbar  */
     width: 100%;
-    height: 60px;
+    height: 80px;
+    cursor: pointer;
+    text-decoration: none;
 }
-} */
-
 
 .layout_bottom div {
     display: flex;
-    position: fixed;
-    bottom: 0;
-    padding: 1rem 0;
-    background-color:rgb(216, 226, 200);
+    background-color: #f0e4db;
     z-index: 999;
     width: 100%;
-    height: 60px;
-   
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -15px;
 }
+
 .layout_bottom a {
-   display: flex;
     margin: auto;
     text-align: center;
     color: var(--main_color);
-    
+    border-radius: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-/* .layout_bottom a:nth-child(1),
-.layout_bottom a:nth-child(2) {
-    border-right: 1px solid var(--main_color);
-    margin-bottom: 50px;
-} */
+#main_nav1 {
+    display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .layout_bottom div {
+        display: fixed;
+        overflow: visible;
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        z-index: 9999;
+        width: 100%;
+        height: 81px;
+        position: absolute;
+        margin-bottom: -1rem;
+    }
+
+    .fixed {
+        z-index: 999 !important;
+        position: fixed !important;
+        top: 0 !important;
+        /* overflow-y: hidden; Hide vertical scrollbar */
+
+        width: 100%;
+        height: 80px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .layout_bottom a {
+        
+        margin: auto;
+        text-align: center;
+        color: var(--main_color);
+        border-radius: 1px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+
+    .icon {
+        position: absolute;
+        top: 20px;
+        height: 1.4rem;
+        right: 20px;
+        /* z-index: 100001; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .layout_bottom div {
+        display: fixed;
+        overflow: visible;
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        z-index: 9999;
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        margin-bottom: -80px;
+    }
+
+    .fixed {
+        z-index: 999 !important;
+        position: fixed !important;
+        top: 0 !important;
+        /* overflow-y: hidden; Hide vertical scrollbar */
+
+        width: 100%;
+        height: 78px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .layout_bottom a {
+        margin: auto;
+        text-align: center;
+        color: var(--main_color);
+        border-radius: 1px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 18px;
+    }
+
+    .icon {
+        position: absolute;
+        top: 20px;
+        height: 1.4rem;
+        right: 20px;
+        /* z-index: 100001; */
+    }
+}
 </style>
