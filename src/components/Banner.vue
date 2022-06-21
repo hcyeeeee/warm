@@ -5,7 +5,7 @@
             <!-- <h3><a href="">民視新聞網</a></h3> -->
         </div>
         <div class="row content">
-            <div class="title col-12 col-lg-5">
+            <div class="title col-12 col-lg-6">
                 <h1>暖新聞專區</h1>
                 <h5 class="mo">每日一篇暖新聞&nbsp;傳遞療癒正能量</h5>
                 <h5 class="momo">每日一篇暖新聞&nbsp;傳遞療癒正能量</h5>
@@ -121,7 +121,7 @@ h5 {
 hr {
     width: 100px;
     border: 1px solid black;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 h1 {
     font-size: 80px;
@@ -153,15 +153,15 @@ h3 a {
 
 .title {
     margin: auto;
-    margin-top: 6%;
-    font-size: 50px;
-    line-height: 75px;
+    /* margin-top: 6%; */
+    font-size: 48px;
+    line-height: 70px;
 }
 
 .subtitle1 {
-    margin-right: 300px;
-    margin: auto;
-    margin-top: 4%;
+    margin-right: 60px;
+    /* margin: auto; */
+    margin-top: -1rem;
     line-height: 40px;
     font-size: 30px;
     text-align: center;
@@ -175,7 +175,7 @@ p {
     font-size: 16px;
     /* color: var(--main_color); */
     line-height: 28px;
-    color: black;
+    color: black; 
     margin: auto;
 }
 
@@ -209,7 +209,7 @@ span {
 }
 .godown1 {
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     right: 49%;
     border-radius: 100%;
     padding: 12px 14px;
