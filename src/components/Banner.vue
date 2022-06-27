@@ -37,10 +37,10 @@
                     <b-carousel-slide img-src="../assets/難民運動員.jpg"> <a href="#pop3"></a></b-carousel-slide>
                     <b-carousel-slide img-src="../assets/點燈謝醫護.jpg"><a href="#pop4"></a> </b-carousel-slide> -->
 
-                    <a href="#pop"> <b-carousel-slide img-src="../assets/24厭世喵星人.jpg"> </b-carousel-slide></a>
-                    <a href="#pop"> <b-carousel-slide img-src="../assets/24小兄弟感謝警-02.jpg"> </b-carousel-slide></a>
-                    <a href="#pop"> <b-carousel-slide img-src="../assets/24生命小鬥士-03.jpg"> </b-carousel-slide></a>
-                    <a href="#pop"> <b-carousel-slide img-src="../assets/24暖心嬤赤腳-03-04.jpg"> </b-carousel-slide></a>
+                    <a href="#pop"> <b-carousel-slide img-src="../assets/27狗頭神轉世-輪播圖_工作區域 1.jpg"> </b-carousel-slide></a>
+                    <a href="#pop"> <b-carousel-slide img-src="../assets/27反光鏡菩薩-輪播圖-02.jpg"> </b-carousel-slide></a>
+                    <a href="#pop"> <b-carousel-slide img-src="../assets/27阿嬤馬拉松-輪播圖-03.jpg"> </b-carousel-slide></a>
+                    <a href="#pop"> <b-carousel-slide img-src="../assets/27視帝公益助人-輪播圖-04.jpg"> </b-carousel-slide></a>
                 </b-carousel>
             </div>
             <div>
@@ -69,10 +69,10 @@
                     <b-carousel-slide img-src="../assets/難民運動員.jpg"> <a href="#pop3"></a></b-carousel-slide>
                     <b-carousel-slide img-src="../assets/點燈謝醫護.jpg"><a href="#pop4"></a> </b-carousel-slide> -->
 
-                    <a href="#pop"> <b-carousel-slide img-src="../assets/手機-厭世喵星人_工作區域 1.jpg"> </b-carousel-slide></a>
-                    <a href="#pop"> <b-carousel-slide img-src="../assets/手機-小兄弟感謝警-02-02.jpg"> </b-carousel-slide></a>
-                    <a href="#pop"> <b-carousel-slide img-src="../assets/手機-生命小鬥士-03-03.jpg"> </b-carousel-slide></a>
-                    <a href="#pop"> <b-carousel-slide img-src="../assets/手機-暖心嬤赤腳-03-04-04.jpg"> </b-carousel-slide></a>
+                    <a href="#pop"> <b-carousel-slide img-src="../assets/手機-狗頭神轉世輪播圖_工作區域 1.jpg"> </b-carousel-slide></a>
+                    <a href="#pop"> <b-carousel-slide img-src="../assets/手機-反光鏡菩薩輪播圖-02.jpg"> </b-carousel-slide></a>
+                    <a href="#pop"> <b-carousel-slide img-src="../assets/手機-阿嬤馬拉松輪播圖-03.jpg"> </b-carousel-slide></a>
+                    <a href="#pop"> <b-carousel-slide img-src="../assets/手機-視帝公益助人輪播圖-04.jpg"> </b-carousel-slide></a>
                 </b-carousel>
             </div>
         </div>

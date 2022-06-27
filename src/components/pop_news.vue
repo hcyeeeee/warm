@@ -21,27 +21,28 @@
                 <template #img>
                     <div class="layout_grid">
                         <div class="layout_grid_news" id="pop1">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022616W0215'" target="_blank"></a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0168'" target="_blank"></a>
                             <div class="grid_cover">
                                 <!-- <img :src="news.Image" /> -->
-                                   <a :href="'https://www.ftvnews.com.tw/news/detail/2022616W0215'" target="_blank"><img
-                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/522f19ad-1c9c-494a-8e34-1b66d6088eb0.jpg"
+                                   <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0168'" target="_blank"><img
+                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/98917929-4c71-4cfb-9df3-da081e45fcc5.jpg"
                                         alt=""
                                 /></a>
                               
                             </div>
                             <a
-                                :href="'https://www.ftvnews.com.tw/news/detail/2022616W0215'"
+                                :href="'https://www.ftvnews.com.tw/news/detail/2022621W0168'"
                                 target="_blank"
                                 class="mobile_grid_info"
                             >
                                 <div class="grid_info">
                                     <h4>
-                                        厭世喵星人抬頭「是把拔」1秒變臉軟萌萌&nbsp;網敲碗：快出表情包！
+                                        我家柴柴是「狗頭神」轉世？下半身消失噴聖光&nbsp;網友膜拜喊現代神蹟
+                                 
                                        
                                     </h4>
                                     <p>
-                                        這隻貓根本能出表情包！在日本四國愛媛縣松山市的一處草莓農場裡，有隻名字叫做「小太郎（コタロー）」的2歲虎斑貓，最近飼主在推特上分享一段短片，短短15秒就能看出小太郎的超級反差萌，超可愛的表情變化也讓全球百萬網友融化！
+                                       古埃及神話中的「狗頭神」阿努比斯，難道在現代出現了嗎？原來是日本有網友最近在IG上傳一段短片，可以看到一隻柴犬坐在窗邊曬太陽，不過或許因為陽光太強、狗狗身體又會反光的緣故，讓在屋內的飼主看出去時就像一顆「狗頭」飄在空中，彷彿神明現身，讓飼主實在哭笑不得。
                                     </p>
                                 </div>
                             </a>
@@ -49,7 +50,7 @@
                             <!-- </a> -->
                         </div>
                         <button id="show">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022616W0215'" target="blank">閱讀更多</a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0168'" target="blank">閱讀更多</a>
                         </button>
 
                         <!-- <dialog id="infoModal">
@@ -71,36 +72,37 @@
                 <template #img>
                     <div class="layout_grid">
                         <div class="layout_grid_news" id="pop2">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022617W0179'" target="_blank"></a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0073'" target="_blank"></a>
                             <div class="grid_cover">
                                 <!-- <img :src="news.Image" /> -->
-                               <a :href="'https://www.ftvnews.com.tw/news/detail/2022617W0179'" target="_blank"> <img
-                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/a9544f55-ddf6-430e-b46b-6ba599fcbdc5.jpg"
+                               <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0073'" target="_blank"> <img
+                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/5d3e9683-3dd4-46f8-a54a-9d29bb670b9a.jpg"
                                         alt=""
                                 /></a>
                                    
                             </div>
                             <a
-                                :href="'https://www.ftvnews.com.tw/news/detail/2022617W0179'"
+                                :href="'https://www.ftvnews.com.tw/news/detail/2022621W0073'"
                                 target="_blank"
                                 class="mobile_grid_info"
                             >
                                 <div class="grid_info">
-                                    <h4>感謝警察付出！台中小兄弟檔掏零用錢&nbsp;送飲料慰勞「心目中的英雄」</h4>
+                                
+                                    <h4>9年擦亮19萬片！「反光鏡菩薩」張秀雄逝世網友不捨感念：謝謝阿伯</h4>
                                     <p>
-                                        為感謝辛苦守護市民的警察，台中一對小兄弟檔拿出積攢的零用錢，購買飲料慰勞「心目中的英雄」。6月15日警察節當天下午，兩兄弟提著一大袋飲料前往台中市警局后里分駐所，父親轉述2名孩童的來意，讓在場員警大為感動，所長李建興更回贈警察勤務帽，與兄弟倆留下值得紀念的開心合影。
+                                        新北市有一名「反光鏡菩薩」張秀雄先生，因過去曾目睹車禍，發現路上的反光鏡沒有好好維護，所以開啟了他擦拭反光鏡之旅。長達9年的時間，張秀雄騎著機車穿梭在北台灣，默默擦拭了至少19萬片路邊反光鏡。日前有網友PO文說張秀雄先生日前已離世，而親友也證實了他已於6月初過世，享壽80歲。
                                     </p>
                                 </div>
                             </a>
                             <!-- </a> -->
                         </div>
                         <button id="show1">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022617W0179'" target="_blank">閱讀更多</a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0073'" target="_blank">閱讀更多</a>
                         </button>
 
                         <!-- <dialog id="infoModal1">
                             <iframe
-                                src="https://www.ftvnews.com.tw/news/detail/2022617W0179"
+                                src="https://www.ftvnews.com.tw/news/detail/2022621W0073"
                                 frameborder="0"
                                 width="900px"
                                 height="900px"
@@ -116,36 +118,36 @@
                 <template #img>
                     <div class="layout_grid">
                         <div class="layout_grid_news" id="pop3">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022616W0288'" target="_blank"></a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022618W0087'" target="_blank"></a>
                             <div class="grid_cover">
                                 <!-- <img :src="news.Image" /> -->
-                                 <a :href="'https://www.ftvnews.com.tw/news/detail/2022616W0288'" target="_blank"><img
-                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/eb52e337-6839-402d-931b-2789864e6b3a.jpg"
+                                 <a :href="'https://www.ftvnews.com.tw/news/detail/2022618W0087'" target="_blank"><img
+                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/3d5ff04d-e832-4efb-94e0-c3057a260add.jpg"
                                         alt=""
                                 /></a>
                                
                             </div>
                             <a
-                                :href="'https://www.ftvnews.com.tw/news/detail/2022616W0288'"
+                                :href="'https://www.ftvnews.com.tw/news/detail/2022618W0087'"
                                 target="_blank"
                                 class="mobile_grid_info"
                             >
                                 <div class="grid_info">
-                                    <h4>車禍癱瘓9年！生命小鬥士珣珣「用嘴控筆寫作業」國小畢業獲校長獎</h4>
+                                    <h4>超狂！82歲阿嬤「24小時跑125公里」刷新世界紀錄　嗨喊：完全不累</h4>
                                     <p>
-                                       嘉義市宣信國小畢業生「珣珣」，在9年前發生車禍，導致她頸部以下癱瘓。不過，珣珣還是像一般孩子一樣每天上學，努力的用「嘴」寫字完成學業，今年12歲的她已經從國小畢業，還以優秀的成績拿下校長獎，嘉義市長黃敏惠也到場獻上祝福，珣珣也坦言，自己畢業了雖然開心，但要與同學們分開還是有點捨不得，期待能上同一所國中。
+                                      法國一名高齡82歲的阿嬤熱衷參加馬拉松賽事，日前以24小時跑完78英里（約125公里），一舉打破世界紀錄。她透露，在跑步的過程中會進入冥想狀態，因此完全不覺得累。
                                     </p>
                                 </div>
                             </a>
                             <!-- </a> -->
                         </div>
                         <button id="show2">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022616W0288'" target="_blank">閱讀更多</a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022618W0087'" target="_blank">閱讀更多</a>
                         </button>
 
                         <!-- <dialog id="infoModal2">
                             <iframe
-                                src="https://www.ftvnews.com.tw/news/detail/2022616W0288"
+                                src="https://www.ftvnews.com.tw/news/detail/2022618W0087"
                                 frameborder="0"
                                 width="900px"
                                 height="900px"
@@ -161,37 +163,37 @@
                 <template #img>
                     <div class="layout_grid">
                         <div class="layout_grid_news" id="pop4">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022615W0135'" target="_blank"></a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0080'" target="_blank"></a>
                             <div class="grid_cover">
                                 <!-- <img :src="news.Image" /> -->
-  <a :href="'https://www.ftvnews.com.tw/news/detail/2022615W0135'" target="_blank"><img
-                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/7f92ce7f-3f08-49e8-9a61-47ba61266491.jpg"
+  <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0080'" target="_blank"><img
+                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/cf678474-a300-4f82-a878-87ed8856ce0e.jpg"
                                         alt=""
                                 /></a>
                              
                             </div>
                             <a
-                                :href="'https://www.ftvnews.com.tw/news/detail/2022615W0135'"
+                                :href="'https://www.ftvnews.com.tw/news/detail/2022621W0080'"
                                 target="_blank"
                                 class="mobile_grid_info"
                             >
                                 <div class="grid_info">
-                                    <h4>腳踏墊有「拖鞋」真相曝光！暖心嬤怕踩髒地板赤腳逛超商</h4>
+                                    <h4>台北地下街驚見「金鐘視帝」梁修身　變身街頭藝人吹薩克斯風、折氣球！</h4>
                                     <p>
-                                        日前彰化縣一名網友至芳苑鄉三合村的一家便利超商取貨，進店門前忽然發現地墊上竟散落一雙粉紅色的拖鞋，原以為是民眾不要亂丟，隨後入內結帳才發現一位赤腳的阿嬤，她趕忙上前詢問，這才知道原來阿嬤擔心弄髒店員清潔乾淨的地板，而把拖鞋擺放在外，事後她也上網分享此事，不少網友直呼阿嬤實在太可愛，為店員著想的心意令人溫暖。
+                                        74歲的梁修身，除了是知名演員、製作人、導演，還曾得過金鐘視帝，近幾年來鮮少出現螢光幕前，（19日）被目擊現身台北地下街第二廣場，他事後證實已考取「新北市街頭藝人證」，表演項目除了吹薩克斯風還有折氣球，梁修身透露，自己曾去育幼院、偏鄉小學、醫院等進行公益演出「有機會都會去，我就是做讓大家開心的！」。
                                     </p>
                                 </div>
                             </a>
                             <!-- </a> -->
                         </div>
                         <button id="show3">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022615W0135'" target="_blank"
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0080'" target="_blank"
                                 >閱讀更多
                             </a>
                         </button>
                         <!-- <dialog id="infoModal3">
                             <iframe
-                                src="https://www.ftvnews.com.tw/news/detail/2022615W0135"
+                                src="https://www.ftvnews.com.tw/news/detail/2022621W0080"
                                 frameborder="0"
                                 width="900px"
                                 height="900px"
