@@ -5,7 +5,7 @@
             <!-- <h3><a href="">民視新聞網</a></h3> -->
         </div>
         <div class="row content">
-            <div class="title col-12 col-lg-6">
+            <div class="title col-12 col-xl-5">
                 <h1>暖新聞專區</h1>
                 <h5 class="mo">每日一篇暖新聞&nbsp;傳遞療癒正能量</h5>
                 <h5 class="momo">每日一篇暖新聞&nbsp;傳遞療癒正能量</h5>
@@ -16,7 +16,7 @@
                 </p>
             </div>
 
-            <div class="subtitle1 col-xl-5 ml-5">
+            <div class="subtitle1  col-xl-5 ml-5">
                 <h2>熱門精選Top4</h2>
                 <b-carousel
                     id="carousel-1"
@@ -222,7 +222,13 @@ span {
     animation: bounce2 1.5s ease infinite;
 }
 
-@media screen and (max-width: 1024px) {
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
     .title {
         margin-top: -1rem;
         font-size: 16px;
@@ -246,21 +252,23 @@ span {
     }
 
     .banner {
-        height: 98vh;
+        height: 100%;
         width: 100%;
         background-size: cover;
         background-image: url('../assets/banner1024x500.jpg');
     }
 
     .subtitle1 {
+            /* width: 900px; */
         margin: auto;
         margin-top: -47rem;
-        margin-right: 3rem;
-        margin-left: 3rem;
+        margin-right: 4.5rem;
+        margin-left: 4.5rem;
         padding: 2.5rem;
         line-height: 40px;
         font-size: 30px;
         text-align: center;
+    align-items: center;
     }
 
     .subtitle {
@@ -268,15 +276,7 @@ span {
     }
 
     .godown1 {
-        position: absolute;
-        bottom: 4.5rem;
-        right: 48%;
-        border-radius: 100%;
-        padding: 12px 14px;
-        border: 2px solid rgb(8, 8, 8);
-        z-index: 99;
-        cursor: pointer;
-        width: 45px;
+    display:none;
     }
     .godown1:hover {
         animation: bounce2 1.5s ease infinite;
@@ -290,6 +290,7 @@ span {
     display: block;
     font-size: 27.5px;
 }
+
 
 @media screen and (max-width: 768px) {
     .momo {

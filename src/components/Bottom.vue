@@ -2,9 +2,9 @@
     <div class="layout_addition">
         <div class="layout_bottom">
             <div id="main_nav" :class="{ fixed: active }">
-                <a class="col-4 col-sm-3 col-md-2 col-lg" v-for="(title, index) of titles" :key="index" :href="title.link"
+              <a class="col-4 col-sm-3 col-md-2 col-lg" v-for="(title, index) of titles" :key="index" :href="title.link"
                     >{{ title.name }}
-                </a>
+               </a>
             </div>
 
             <!-- <div id="main_nav1" :class="{ fixed: active }">
@@ -83,7 +83,7 @@ export default {
     background-color: #f0e4db;
     z-index: 999;
     width: 100%;
-    height: 80px;
+    height: 85px;
     position: absolute;
     bottom: 0;
     margin-bottom: -15px;
@@ -97,23 +97,52 @@ export default {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+ 
+    margin: auto 1rem;
+ 
+
+  align-items: center;
+ background-color: #efece9;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+
+  text-decoration: none;
+  width: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
 }
+
+
 
 #main_nav1 {
     display: none;
 }
 
 
-@media screen and (max-width: 1024px) {
-    .layout_bottom div {
+@media screen and (max-width: 1200px) {
+     .layout_bottom div {
         display: fixed;
         overflow: visible;
         overflow-y: hidden; /* Hide vertical scrollbar */
         z-index: 9999;
         width: 100%;
-        height: 81px;
+        height: 80px;
         position: absolute;
-        margin-bottom: -1rem;
+        margin-bottom: -26rem;
     }
 
     .fixed {
@@ -133,7 +162,7 @@ export default {
         margin: auto;
         text-align: center;
         color: var(--main_color);
-        border-radius: 1px;
+        border-radius: 10px;
         font-size: 20px;
         font-weight: bold;
         text-decoration: none;
@@ -177,7 +206,7 @@ export default {
         margin: auto;
         text-align: center;
         color: var(--main_color);
-        border-radius: 1px;
+        border-radius: 10px;
         font-size: 20px;
         font-weight: bold;
         text-decoration: none;

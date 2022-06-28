@@ -110,7 +110,8 @@ export default {
 
         getLocalUrl() {
             let e = document.createElement('input'),
-                t = window.location.href + '?utm_source=topicpage&utm_medium=copybutton'
+                // t = window.location.href + '?utm_source=topicpage&utm_medium=copybutton'
+                 t = window.location.href
             document.body.appendChild(e),
                 (e.value = t),
                 e.select(),

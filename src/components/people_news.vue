@@ -48,6 +48,7 @@ export default {
         return {
             newsInfo: [],
             title: '勵志人物',
+          
         }
     },
     mounted() {
