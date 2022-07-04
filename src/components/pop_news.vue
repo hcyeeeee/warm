@@ -21,28 +21,28 @@
                 <template #img>
                     <div class="layout_grid">
                         <div class="layout_grid_news" id="pop1">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0168'" target="_blank"></a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022630W0243'" target="_blank"></a>
                             <div class="grid_cover">
                                 <!-- <img :src="news.Image" /> -->
-                                   <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0168'" target="_blank"><img
-                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/98917929-4c71-4cfb-9df3-da081e45fcc5.jpg"
+                                   <a :href="'https://www.ftvnews.com.tw/news/detail/2022630W0243'" target="_blank"><img
+                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/2c01d02e-e588-4eae-9aae-ba29591eb8ff.jpg"
                                         alt=""
                                 /></a>
                               
                             </div>
                             <a
-                                :href="'https://www.ftvnews.com.tw/news/detail/2022621W0168'"
+                                :href="'https://www.ftvnews.com.tw/news/detail/2022630W0243'"
                                 target="_blank"
                                 class="mobile_grid_info"
                             >
                                 <div class="grid_info">
                                     <h4>
-                                        我家柴柴是「狗頭神」轉世？下半身消失噴聖光&nbsp;網友膜拜喊現代神蹟
+                                       「歐告」怕曬黑全身包緊成採茶妹！騎車戴墨鏡「專業3裝備」笑翻網
                                  
                                        
                                     </h4>
                                     <p>
-                                       古埃及神話中的「狗頭神」阿努比斯，難道在現代出現了嗎？原來是日本有網友最近在IG上傳一段短片，可以看到一隻柴犬坐在窗邊曬太陽，不過或許因為陽光太強、狗狗身體又會反光的緣故，讓在屋內的飼主看出去時就像一顆「狗頭」飄在空中，彷彿神明現身，讓飼主實在哭笑不得。
+                                       夏天到了要做好防曬以免被曬傷，一名網友近期分享一張搞笑照片，一名騎士載著愛犬出門，只見這隻「歐告」全身包緊緊，乍看就像採茶妹，牠戴著墨鏡、遮陽帽，以及薄上衣，3樣專業的防曬裝備瞬間成為路上焦點，坐在腳踏墊上也不忘緊盯前方，看起來相當有自信，照片曝光後，笑翻網友。
                                     </p>
                                 </div>
                             </a>
@@ -50,7 +50,7 @@
                             <!-- </a> -->
                         </div>
                         <button id="show">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0168'" target="blank">閱讀更多</a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022630W0243'" target="blank">閱讀更多</a>
                         </button>
 
                         <!-- <dialog id="infoModal">
@@ -72,37 +72,37 @@
                 <template #img>
                     <div class="layout_grid">
                         <div class="layout_grid_news" id="pop2">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0073'" target="_blank"></a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022624W0164'" target="_blank"></a>
                             <div class="grid_cover">
                                 <!-- <img :src="news.Image" /> -->
-                               <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0073'" target="_blank"> <img
-                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/5d3e9683-3dd4-46f8-a54a-9d29bb670b9a.jpg"
+                               <a :href="'https://www.ftvnews.com.tw/news/detail/2022624W0164'" target="_blank"> <img
+                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/7e660982-e658-48d5-bde9-00290075dada.jpg"
                                         alt=""
                                 /></a>
                                    
                             </div>
                             <a
-                                :href="'https://www.ftvnews.com.tw/news/detail/2022621W0073'"
+                                :href="'https://www.ftvnews.com.tw/news/detail/2022624W0164'"
                                 target="_blank"
                                 class="mobile_grid_info"
                             >
                                 <div class="grid_info">
                                 
-                                    <h4>9年擦亮19萬片！「反光鏡菩薩」張秀雄逝世網友不捨感念：謝謝阿伯</h4>
+                                    <h4>10歲台裔小女孩廚藝節目奪冠！征服「地獄廚神」抱走300萬獎金</h4>
                                     <p>
-                                        新北市有一名「反光鏡菩薩」張秀雄先生，因過去曾目睹車禍，發現路上的反光鏡沒有好好維護，所以開啟了他擦拭反光鏡之旅。長達9年的時間，張秀雄騎著機車穿梭在北台灣，默默擦拭了至少19萬片路邊反光鏡。日前有網友PO文說張秀雄先生日前已離世，而親友也證實了他已於6月初過世，享壽80歲。
+                                        美國節目《小小頂級廚師美國版》（MasterChef Junior USA），邀請8到13歲的小朋友參與廚藝競賽，角逐頂級廚師頭銜和10萬美金（約新台幣300萬元）的豐厚獎金。在第8季節目中，有位父母皆來自台灣的10歲小女孩莉亞（Liya）表現突出，每每端出的料理都讓評審驚艷，就連地獄廚神戈登（Gordon Ramsay）都對她讚譽有加。如今節目結果出爐，莉亞打敗各路好手，順利奪得冠軍。
                                     </p>
                                 </div>
                             </a>
                             <!-- </a> -->
                         </div>
                         <button id="show1">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0073'" target="_blank">閱讀更多</a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022624W0164'" target="_blank">閱讀更多</a>
                         </button>
 
                         <!-- <dialog id="infoModal1">
                             <iframe
-                                src="https://www.ftvnews.com.tw/news/detail/2022621W0073"
+                                src="https://www.ftvnews.com.tw/news/detail/2022624W0164"
                                 frameborder="0"
                                 width="900px"
                                 height="900px"
@@ -118,36 +118,36 @@
                 <template #img>
                     <div class="layout_grid">
                         <div class="layout_grid_news" id="pop3">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022618W0087'" target="_blank"></a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022630W0095'" target="_blank"></a>
                             <div class="grid_cover">
                                 <!-- <img :src="news.Image" /> -->
-                                 <a :href="'https://www.ftvnews.com.tw/news/detail/2022618W0087'" target="_blank"><img
-                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/3d5ff04d-e832-4efb-94e0-c3057a260add.jpg"
+                                 <a :href="'https://www.ftvnews.com.tw/news/detail/2022630W0095'" target="_blank"><img
+                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/7798e46b-ee60-4af8-8f39-196ffcbe5d91.jpg"
                                         alt=""
                                 /></a>
                                
                             </div>
                             <a
-                                :href="'https://www.ftvnews.com.tw/news/detail/2022618W0087'"
+                                :href="'https://www.ftvnews.com.tw/news/detail/2022630W0095'"
                                 target="_blank"
                                 class="mobile_grid_info"
                             >
                                 <div class="grid_info">
-                                    <h4>超狂！82歲阿嬤「24小時跑125公里」刷新世界紀錄&nbsp;嗨喊：完全不累</h4>
+                                    <h4>15歲少年徒步環島有洋蔥！他「揹阿嬤」風吹日曬：祂一直都在</h4>
                                     <p>
-                                      法國一名高齡82歲的阿嬤熱衷參加馬拉松賽事，日前以24小時跑完78英里（約125公里），一舉打破世界紀錄。她透露，在跑步的過程中會進入冥想狀態，因此完全不覺得累。
+                                      許多人為了完成自己的夢想，一輩子中至少會環島一次，但最近有一名15歲少年卻是為了「已經過世的阿嬤」開始徒步環島，過程中有許多民眾捕捉到他的身影，在得知背後有洋蔥非常感動，故事曝光後更是逼哭大批網友。
                                     </p>
                                 </div>
                             </a>
                             <!-- </a> -->
                         </div>
                         <button id="show2">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022618W0087'" target="_blank">閱讀更多</a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022630W0095'" target="_blank">閱讀更多</a>
                         </button>
 
                         <!-- <dialog id="infoModal2">
                             <iframe
-                                src="https://www.ftvnews.com.tw/news/detail/2022618W0087"
+                                src="https://www.ftvnews.com.tw/news/detail/2022630W0095"
                                 frameborder="0"
                                 width="900px"
                                 height="900px"
@@ -163,37 +163,37 @@
                 <template #img>
                     <div class="layout_grid">
                         <div class="layout_grid_news" id="pop4">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0080'" target="_blank"></a>
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022625W0077'" target="_blank"></a>
                             <div class="grid_cover">
                                 <!-- <img :src="news.Image" /> -->
-  <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0080'" target="_blank"><img
-                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/cf678474-a300-4f82-a878-87ed8856ce0e.jpg"
+  <a :href="'https://www.ftvnews.com.tw/news/detail/2022625W0077'" target="_blank"><img
+                                        src="https://cdn.ftvnews.com.tw/manasystem/FileData/News/28b54367-1a07-4bae-88ea-afe81233df95.jpg"
                                         alt=""
                                 /></a>
                              
                             </div>
                             <a
-                                :href="'https://www.ftvnews.com.tw/news/detail/2022621W0080'"
+                                :href="'https://www.ftvnews.com.tw/news/detail/2022625W0077'"
                                 target="_blank"
                                 class="mobile_grid_info"
                             >
                                 <div class="grid_info">
-                                    <h4>台北地下街驚見「金鐘視帝」梁修身&nbsp;變身街頭藝人吹薩克斯風、折氣球！</h4>
+                                    <h4>台語歌后霸氣「一刀斬斷30公分」！暖心原因曝光楊繡惠嗨喊4字</h4>
                                     <p>
-                                        74歲的梁修身，除了是知名演員、製作人、導演，還曾得過金鐘視帝，近幾年來鮮少出現螢光幕前，（19日）被目擊現身台北地下街第二廣場，他事後證實已考取「新北市街頭藝人證」，表演項目除了吹薩克斯風還有折氣球，梁修身透露，自己曾去育幼院、偏鄉小學、醫院等進行公益演出「有機會都會去，我就是做讓大家開心的！」。
+                                        41歲台語歌后孫淑媚，過去在歌唱節目中脫穎而出，年僅14歲的她就成功與經紀公司簽約，正式踏入歌壇。出道後，孫淑媚一直都有捐髮的習慣，因此在做舞台造型時，非必要都會堅持不染不燙，盡量讓頭髮保持最原始的狀態，只為了要蓄髮捐給癌症病友。她6月23日在臉書曬出自己的剪髮過程，只見她俐落地一把剪去30公分長髮，暖心舉動讓網友大受感動，就連藝人楊繡惠也現身留言回應。
                                     </p>
                                 </div>
                             </a>
                             <!-- </a> -->
                         </div>
                         <button id="show3">
-                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022621W0080'" target="_blank"
+                            <a :href="'https://www.ftvnews.com.tw/news/detail/2022625W0077'" target="_blank"
                                 >閱讀更多
                             </a>
                         </button>
                         <!-- <dialog id="infoModal3">
                             <iframe
-                                src="https://www.ftvnews.com.tw/news/detail/2022621W0080"
+                                src="https://www.ftvnews.com.tw/news/detail/2022625W0077"
                                 frameborder="0"
                                 width="900px"
                                 height="900px"

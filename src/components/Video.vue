@@ -10,7 +10,7 @@
                 <iframe
                     width="100%"
                     height="600"
-                    src="https://www.youtube.com/embed/Ff6CLPHGl5I"
+                    src="https://www.youtube.com/embed/erFCnbOSMxI"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -21,7 +21,7 @@
                 <iframe
                     width="100%"
                     height="600"
-                    src="https://www.youtube.com/embed/dxISG6ksWu0"
+                    src="https://www.youtube.com/embed/tN2vlUGDcT8"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
